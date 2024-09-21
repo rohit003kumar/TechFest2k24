@@ -4,7 +4,7 @@ import video from '../../assets/video.mp4'
 import robot from "../../assets/robot.png"
 import robot2 from '../../assets/robot2.png'
 import frame from '../../assets/frame.png'
-import photo from '../../assets/pngegg.png'
+// import photo from '../../assets/pngegg.png'
 import { motion } from 'framer-motion'
 import { fadeIn } from '../../variants'
 import Animation from '../animation/animation'
