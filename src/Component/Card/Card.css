@@ -1,0 +1,122 @@
+.card{
+    
+     height: 450px;
+     width: 330px;
+     margin: 30px;
+     box-shadow: 0px -2px 2px rgb(175, 175, 232), -0px 2px 2px  rgb(111, 111, 255),-3px -2px  2px rgb(111, 111, 255),3px 2px 2px rgb(111, 111, 255);
+     transition: 0.3s;
+     /* background-color: #E9EFEC; */
+     /* background-color: #181C14; */
+  /* background: linear-gradient(rgb(174, 150, 150),rgb(37, 27, 27),rgba(65, 78, 36, 0.812),black); */
+  background: transparent;
+     color: white;
+     transition: 0.5s ease-out ;
+    
+}
+.card:hover {
+    box-shadow: 6px -5px 5px #00FFF6, -6px 5px 5px  #00FFF6,-6px -5px  5px #00FFF6,6px 5px 5px #00FFF6;
+    /* animation: .5s linear 0s 1 alternate bounce; */
+    top: -25px;
+    background: rgb(0, 0, 0, 0.2);
+}
+.item img {
+    height: 250px;
+    width: 100%;
+    padding: 10px;
+    aspect-ratio: 1/1;
+    /* opacity: 0.87; */
+    transition: all 0.3s ease-in;
+    
+ 
+}
+.card:hover img {
+    /* opacity: 0.3; */
+    filter: brightness(50%);
+    transform: scale(1.07);
+
+}
+.item .detail {
+    max-width: 300px;
+    height: 150px;
+    position: absolute;
+    color: rgb(255, 247, 247);
+    top: 200px;
+    z-index: -3;
+    display:none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: self-start;
+    margin-left: 50px;
+    margin-right: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease-in;
+
+ 
+
+    
+     
+}
+.card:hover .detail {
+    top: 100px;
+   z-index: 1;
+   display: flex;
+}
+.prize h4 {
+   
+    font-size: 2.1em;
+    font-weight: 500;
+    color: rgb(255, 0, 0);
+}
+
+.card-body button {
+    position: absolute;
+    padding :5px 20px;
+    left: 15px;
+    bottom: 15px;
+    font-size: 1rem;
+    font-weight: 700;
+    border:none;
+    outline: none;
+    border-radius: 4px;
+ 
+}
+.card-body button:hover {
+    background: rgb(36, 150, 36);
+    color: whitesmoke;
+}
+
+/* @keyframes bounce {
+    0% {
+        transform: rotateX(0deg);
+    }
+    20% {
+        transform: translateY(-60PX);
+    }
+  
+    50% {
+        transform: rotateY(180deg);
+    } 
+
+      
+
+}
+    */
+
+
+
+    @media (max-width:1000px) {
+        .list-item {
+            margin-top: 20px;
+           margin-left: 40px;
+           }
+    }
+    @media (max-width: 450px) {
+        .card {
+            height: 450px;
+            width: 250px;
+             margin: 0px; 
+        }
+        .list-item {
+        gap: 60px;
+        }
+    }

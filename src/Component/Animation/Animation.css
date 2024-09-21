@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #fff;
+    background: #111;
+}
+
+.bgAnimation {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(20, 1fr);
+    grid-template-rows: repeat(20, 1fr);
+    background: #1d1d1d;
+    filter: saturate(2);
+    overflow: hidden;
+}
+
+.colorBox {
+    z-index: 2;
+    filter: brightness(1.1);
+    transition: 2s ease;
+    position: relative;
+    margin: 5px;
+    background: #1d1d1d;
+}
+
+.colorBox:hover {
+    background: #0ef;
+    transition-duration: 0s;
+}
+
+.backgroundanim {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    background: #00bfff;
+    filter: blur(80px);
+    animation: animate 6s linear infinite;
+}
+
+@keyframes animate {
+    0% {
+        top: -60px;
+    }
+    100% {
+        top: 120%;
+    }
+}
