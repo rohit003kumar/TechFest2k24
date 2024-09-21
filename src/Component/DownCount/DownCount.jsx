@@ -6,7 +6,7 @@ import p4 from '../../assets/p4.jpeg'
 import './Chat.css';
 import { motion } from 'framer-motion'
 import { fadeIn } from '../../variants'
-import v1 from '../../assets/v1.mp4'
+
 import gec from '../../assets/OIP.jpeg'
 import c2 from '../../assets/c2.jpg'
 
@@ -92,7 +92,7 @@ function DownCount() {
           <div className="blog-posts2">
           <article className="blog-post2 vid">
           <iframe
-  src={`${v1}?controls=1&autoplay=0&muted=1` }  // Correctly disable autoplay with autoplay=0
+  src="https://www.youtube.com/embed/vefAusWyHrU" // Correctly disable autoplay with autoplay=0
   frameBorder="0"
   allow="autoplay; encrypted-media"
   allowFullScreen/>
