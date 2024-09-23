@@ -11,6 +11,7 @@ import Footer from './Component/Footer/Footer'
 import Register from './Component/Register/Register'
 import HomePage from './Component/HomePage/HomePage'
 import Results from './Component/Results/Results'
+// import ResultPage from './Component/ResultPage/ResultPage'
 
 
 

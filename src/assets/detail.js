@@ -1,3 +1,25 @@
+import r1 from "../assets/result1.jpg"
+import r2 from "../assets/result2.jpg"
+import r3 from "../assets/result3.jpg"
+import r4 from "../assets/result4.jpg"
+import r5 from "../assets/result5.jpg"
+import r6 from "../assets/result6.jpg"
+import r7 from "../assets/result7.jpg"
+import r8 from "../assets/result8.jpg"
+import r9 from "../assets/result9.jpg"
+import r10 from "../assets/result10.avif"
+import r11 from "../assets/result11.jpg"
+import r12 from "../assets/result12.jpg"
+import r13 from "../assets/result13.jpg"
+import r14 from "../assets/result14.avif"
+import r15 from "../assets/result15.jpg"
+import r16 from "../assets/result16.jpg"
+import r17 from "../assets/result17.jpg"
+import r18 from "../assets/result18.jpg"
+import r19 from "../assets/result19.jpg"
+import r20 from "../assets/result20.jpg"
+import r21 from "../assets/result21.jpg"
+import r22 from "../assets/result22.jpg"
 
 
 
@@ -5,7 +27,7 @@
 let detail = [
   {
     "event_id": "001",
-    "event_name": "Tech Innovations Workshop",
+    "event_name": "CodeFiesta",
     "event_coordinator": "Jane Doe",
     "event_teacher_coordinator": "Dr. John Smith",
     "event_date": "2024-10-15",
@@ -22,7 +44,7 @@ let detail = [
       "email": "techworkshop@example.com",
       "phone": "(123) 456-7890"
     },
-    "event_image": "https://www.kidcheck.com/wp-content/uploads/2018/07/creativity-solutions-inspiration-innovation-intelligence-ideas-vision-1.jpg",
+    "event_image": r1,
     "event_faqs": [
       {
         "question": "What is the deadline for registration?",
@@ -36,7 +58,7 @@ let detail = [
   },
   {
     "event_id": "002",
-    "event_name": "AI & Machine Learning Seminar",
+    "event_name": "AD Mad Show",
     "event_coordinator": "Emily Zhang",
     "event_teacher_coordinator": "Prof. Alan Turing",
     "event_date": "2024-10-16",
@@ -53,7 +75,7 @@ let detail = [
       "email": "mlseminar@example.com",
       "phone": "(234) 567-8901"
     },
-    "event_image": "https://cdn.pixabay.com/photo/2023/11/01/17/12/ai-generated-8358416_1280.jpg",
+    "event_image": r2,
     "event_faqs": [
       {
         "question": "Do I need to bring a laptop?",
@@ -67,7 +89,7 @@ let detail = [
   },
   {
     "event_id": "003",
-    "event_name": "Blockchain Technology Summit",
+    "event_name": "Idea Presentation",
     "event_coordinator": "Michael Jordan",
     "event_teacher_coordinator": "Prof. Satoshi Nakamoto",
     "event_date": "2024-10-17",
@@ -84,7 +106,7 @@ let detail = [
       "email": "blockchain@example.com",
       "phone": "(345) 678-9012"
     },
-    "event_image": 'https://oneamplitude.com/wp-content/uploads/2020/12/blockchain.jpg',
+    "event_image": r3,
     "event_faqs": [
       {
         "question": "Is photography allowed?",
@@ -98,7 +120,7 @@ let detail = [
   },
   {
     "event_id": "004",
-    "event_name": "Cloud Computing Conference",
+    "event_name": "Star Investor",
     "event_coordinator": "Sarah Lee",
     "event_teacher_coordinator": "Prof. Tim Berners-Lee",
     "event_date": "2024-10-18",
@@ -114,7 +136,7 @@ let detail = [
       "email": "cloudconference@example.com",
       "phone": "(456) 789-0123"
     },
-    "event_image": "https://cdn.pixabay.com/photo/2022/08/09/05/08/startup-7374154_640.jpg",
+    "event_image":r4,
     "event_faqs": [
       {
         "question": "Do I need a laptop?",
@@ -128,7 +150,7 @@ let detail = [
   },
   {
     "event_id": "005",
-    "event_name": "Cybersecurity Awareness Day",
+    "event_name": "Buisiness Quiz",
     "event_coordinator": "John Lee",
     "event_teacher_coordinator": "Prof. Bruce Schneier",
     "event_date": "2024-10-19",
@@ -144,7 +166,7 @@ let detail = [
       "email": "cyberday@example.com",
       "phone": "(567) 890-1234"
     },
-    "event_image": "https://cdn.pixabay.com/photo/2023/06/01/17/25/hacker-8033977_1280.jpg",
+    "event_image": r5,
     "event_faqs": [
       {
         "question": "Can I bring my own device?",
@@ -159,7 +181,7 @@ let detail = [
   // Continue similarly for the remaining 15 objects...
   {
     "event_id": "006",
-    "event_name": "IoT and Smart Cities Panel",
+    "event_name": "Group Discussion",
     "event_coordinator": "Sophia Green",
     "event_teacher_coordinator": "Prof. Kevin Ashton",
     "event_date": "2024-10-20",
@@ -175,7 +197,7 @@ let detail = [
       "email": "iotpanel@example.com",
       "phone": "(678) 901-2345"
     },
-    "event_image": "https://st2.depositphotos.com/1000975/50820/i/450/depositphotos_508203254-stock-photo-concept-of-smart-city-and.jpg",
+    "event_image": r6,
     "event_faqs": [
       {
         "question": "Is prior knowledge of IoT required?",
@@ -189,7 +211,7 @@ let detail = [
   },
   {
     "event_id": "007",
-    "event_name": "AR/VR Hackathon",
+    "event_name": "Tech Charades",
     "event_coordinator": "David Johnson",
     "event_teacher_coordinator": "Prof. Jane McGonigal",
     "event_date": "2024-10-21",
@@ -205,7 +227,7 @@ let detail = [
       "email": "arvrhack@example.com",
       "phone": "(789) 012-3456"
     },
-    "event_image": "https://sapizon.com/wp-content/uploads/2020/04/vr_ar_usa.jpg",
+    "event_image": r7,
     "event_faqs": [
       {
         "question": "Can I participate alone?",
@@ -219,7 +241,7 @@ let detail = [
   },
     {
       "event_id": "008",
-      "event_name": "Quantum Computing Symposium",
+      "event_name": "Nirman",
       "event_coordinator": "Alice Williams",
       "event_teacher_coordinator": "Prof. David Deutsch",
       "event_date": "2024-10-22",
@@ -235,7 +257,7 @@ let detail = [
         "email": "quantum@example.com",
         "phone": "(111) 222-3333"
       },
-      "event_image": "https://www.kamagra-abc.com/wp-content/uploads/2022/10/Quantum-Financial-System-1024x630.jpg",
+      "event_image": r8,
       "event_faqs": [
         {
           "question": "Can I bring electronic devices?",
@@ -249,7 +271,7 @@ let detail = [
     },
     {
       "event_id": "009",
-      "event_name": "Big Data Analytics Bootcamp",
+      "event_name": "Stem",
       "event_coordinator": "Rahul Verma",
       "event_teacher_coordinator": "Prof. Andrew Ng",
       "event_date": "2024-10-23",
@@ -265,7 +287,7 @@ let detail = [
         "email": "bigdata@example.com",
         "phone": "(222) 333-4444"
       },
-      "event_image": "https://th.bing.com/th/id/R.112aefa2dbe2b2ed8de1828f1b23b489?rik=wL0o%2fdZiqG6neg&riu=http%3a%2f%2fistdatascience.com%2fwp-content%2fuploads%2f2024%2f01%2fDS-Bootcamp-Roadmap-1024x512.png&ehk=uFaqeqbHnQaIDWX6hecFiwQCrpbO121JERKcSM6ZyRQ%3d&risl=&pid=ImgRaw&r=0",
+      "event_image": r9,
       "event_faqs": [
         {
           "question": "Do I need prior programming experience?",
@@ -279,7 +301,7 @@ let detail = [
     },
     {
       "event_id": "010",
-      "event_name": "Robotics Expo",
+      "event_name": "Coding Using Mathematics",
       "event_coordinator": "Sophia Kim",
       "event_teacher_coordinator": "Prof. Isaac Asimov",
       "event_date": "2024-10-24",
@@ -295,7 +317,7 @@ let detail = [
         "email": "robotics@example.com",
         "phone": "(333) 444-5555"
       },
-      "event_image": "https://www.techcult.ru/content/2013/1179/vystavka-robotics-expo-2013_1.jpg",
+      "event_image": r10,
       "event_faqs": [
         {
           "question": "Can I touch the robots?",
@@ -309,7 +331,7 @@ let detail = [
     },
     {
       "event_id": "011",
-      "event_name": "Tech Career Fair",
+      "event_name": "Escate Room Math Chanllenge",
       "event_coordinator": "Jason Carter",
       "event_teacher_coordinator": "Prof. Sheryl Sandberg",
       "event_date": "2024-10-25",
@@ -325,7 +347,7 @@ let detail = [
         "email": "careerfair@example.com",
         "phone": "(444) 555-6666"
       },
-      "event_image": "https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg",
+      "event_image": r11,
       "event_faqs": [
         {
           "question": "Do I need to bring a resume?",
@@ -339,7 +361,7 @@ let detail = [
     },
     {
       "event_id": "012",
-      "event_name": "Women in Tech Panel Discussion",
+      "event_name": "Code Relay Race",
       "event_coordinator": "Angela Johnson",
       "event_teacher_coordinator": "Prof. Ada Lovelace",
       "event_date": "2024-10-26",
@@ -355,7 +377,7 @@ let detail = [
         "email": "womenintech@example.com",
         "phone": "(555) 666-7777"
       },
-      "event_image": "https://images.pexels.com/photos/1181355/pexels-photo-1181355.jpeg",
+      "event_image": r12,
       "event_faqs": [
         {
           "question": "Who can attend this event?",
@@ -369,7 +391,7 @@ let detail = [
     },
     {
       "event_id": "013",
-      "event_name": "Self-Driving Car Workshop",
+      "event_name": "Debbugging Battle",
       "event_coordinator": "Paul Brown",
       "event_teacher_coordinator": "Prof. Elon Musk",
       "event_date": "2024-10-27",
@@ -385,7 +407,7 @@ let detail = [
         "email": "selfdriving@example.com",
         "phone": "(666) 777-8888"
       },
-      "event_image": "https://images.pexels.com/photos/230350/pexels-photo-230350.jpeg",
+      "event_image": r13,
       "event_faqs": [
         {
           "question": "Do I need a driver’s license?",
@@ -399,7 +421,7 @@ let detail = [
     },
     {
       "event_id": "014",
-      "event_name": "Mobile App Development Contest",
+      "event_name": "Blind Coding Chanllenge",
       "event_coordinator": "Maria Lee",
       "event_teacher_coordinator": "Prof. Steve Jobs",
       "event_date": "2024-10-28",
@@ -415,7 +437,7 @@ let detail = [
         "email": "mobileapp@example.com",
         "phone": "(777) 888-9999"
       },
-      "event_image": "https://images.pexels.com/photos/1089438/pexels-photo-1089438.jpeg",
+      "event_image": r14,
       "event_faqs": [
         {
           "question": "Can I participate alone?",
@@ -429,7 +451,7 @@ let detail = [
     },
     {
       "event_id": "015",
-      "event_name": "3D Printing Workshop",
+      "event_name": "Competitive Pair Programming",
       "event_coordinator": "Emily Johnson",
       "event_teacher_coordinator": "Prof. Charles Hull",
       "event_date": "2024-10-29",
@@ -445,7 +467,7 @@ let detail = [
         "email": "3dprint@example.com",
         "phone": "(888) 999-1010"
       },
-      "event_image": "https://images.pexels.com/photos/1249611/pexels-photo-1249611.jpeg",
+      "event_image": r15,
       "event_faqs": [
         {
           "question": "Can I bring my own design?",
@@ -459,7 +481,7 @@ let detail = [
     },
     {
       "event_id": "016",
-      "event_name": "Tech Startups Pitch Competition",
+      "event_name": "Code Golf(Minimize Code Size)",
       "event_coordinator": "Mark Davis",
       "event_teacher_coordinator": "Prof. Peter Thiel",
       "event_date": "2024-10-30",
@@ -475,7 +497,7 @@ let detail = [
         "email": "startuppitch@example.com",
         "phone": "(999) 101-1111"
       },
-      "event_image": "https://images.pexels.com/photos/3184429/pexels-photo-3184429.jpeg",
+      "event_image": r16,
       "event_faqs": [
         {
           "question": "Do I need a fully developed product?",
@@ -489,7 +511,7 @@ let detail = [
     },
     {
       "event_id": "017",
-      "event_name": "Virtual Reality in Education",
+      "event_name": "Refactor Mania",
       "event_coordinator": "Nina Patel",
       "event_teacher_coordinator": "Prof. Jaron Lanier",
       "event_date": "2024-10-31",
@@ -505,7 +527,7 @@ let detail = [
         "email": "vreducation@example.com",
         "phone": "(101) 111-1212"
       },
-      "event_image": "https://images.pexels.com/photos/977296/pexels-photo-977296.jpeg",
+      "event_image": r17,
       "event_faqs": [
         {
           "question": "Can I bring my own VR equipment?",
@@ -519,7 +541,7 @@ let detail = [
     },
     {
       "event_id": "018",
-      "event_name": "Autonomous Drones Challenge",
+      "event_name": "Legacy Code Revival",
       "event_coordinator": "James Wang",
       "event_teacher_coordinator": "Prof. Sebastian Thrun",
       "event_date": "2024-11-01",
@@ -535,7 +557,7 @@ let detail = [
         "email": "droneschallenge@example.com",
         "phone": "(121) 131-1414"
       },
-      "event_image": "https://images.pexels.com/photos/1487511/pexels-photo-1487511.jpeg",
+      "event_image": r18,
       "event_faqs": [
         {
           "question": "Do I need to bring my own drone?",
@@ -547,6 +569,127 @@ let detail = [
         }
       ]
     },
+    {
+      "event_id": "019",
+      "event_name": "Binary Bingo",
+      "event_coordinator": "Samantha Lee",
+      "event_teacher_coordinator": "Dr. Andrew Ng",
+      "event_date": "2024-11-02",
+      "event_time": "10:00 AM - 04:00 PM",
+      "event_about": "Create and showcase innovative AI-based solutions to real-world problems.",
+      "event_video": "https://www.youtube.com/watch?v=example19",
+      "event_rules_and_regulations": [
+        "Individual participation is allowed.",
+        "AI projects must be functional and presentable."
+      ],
+      "contact_event": {
+        "name": "Samantha Lee",
+        "email": "aiinnovators@example.com",
+        "phone": "(122) 232-2424"
+      },
+      "event_image": r19,
+      "event_faqs": [
+        {
+          "question": "Can I participate with a team?",
+          "answer": "Yes, teams of up to 3 participants are allowed."
+        },
+        {
+          "question": "Is previous AI knowledge required?",
+          "answer": "Yes, basic knowledge of AI is necessary."
+        }
+      ]
+    },
+    {
+      "event_id": "020",
+      "event_name": "Human-AI Collaboration",
+      "event_coordinator": "David Johnson",
+      "event_teacher_coordinator": "Prof. Bruce Schneier",
+      "event_date": "2024-11-03",
+      "event_time": "01:00 PM - 07:00 PM",
+      "event_about": "Compete in identifying security vulnerabilities and solving complex challenges.",
+      "event_video": "https://www.youtube.com/watch?v=example20",
+      "event_rules_and_regulations": [
+        "Teams of 2-4 participants are required.",
+        "All solutions must be documented."
+      ],
+      "contact_event": {
+        "name": "David Johnson",
+        "email": "cyberCTF@example.com",
+        "phone": "(123) 333-3434"
+      },
+      "event_image": r20,
+      "event_faqs": [
+        {
+          "question": "What type of challenges will be included?",
+          "answer": "Challenges will focus on network security, cryptography, and reverse engineering."
+        },
+        {
+          "question": "Can I participate alone?",
+          "answer": "No, teams of 2-4 participants are mandatory."
+        }
+      ]
+    },
+    {
+      "event_id": "021",
+      "event_name": "Mystery Box Challenge",
+      "event_coordinator": "Alice Martinez",
+      "event_teacher_coordinator": "Prof. Rodney Brooks",
+      "event_date": "2024-11-04",
+      "event_time": "09:00 AM - 03:00 PM",
+      "event_about": "Design robots to navigate a challenging obstacle course autonomously.",
+      "event_video": "https://www.youtube.com/watch?v=example21",
+      "event_rules_and_regulations": [
+        "Teams of 3-6 participants are allowed.",
+        "Robots must be autonomous, no manual control allowed during the course."
+      ],
+      "contact_event": {
+        "name": "Alice Martinez",
+        "email": "roboticsOC@example.com",
+        "phone": "(124) 434-4444"
+      },
+      "event_image": r21,
+      "event_faqs": [
+        {
+          "question": "Can the robots be pre-programmed?",
+          "answer": "Yes, but they must operate autonomously during the course."
+        },
+        {
+          "question": "Is there a weight limit for the robots?",
+          "answer": "Yes, robots cannot weigh more than 50 kg."
+        }
+      ]
+    },
+    {
+      "event_id": "022",
+      "event_name": "Lightening Talks",
+      "event_coordinator": "Kevin Brown",
+      "event_teacher_coordinator": "Prof. Daphne Koller",
+      "event_date": "2024-11-05",
+      "event_time": "11:00 AM - 02:00 PM",
+      "event_about": "Test your tech knowledge across various domains in this fast-paced quiz competition.",
+      "event_video": "https://www.youtube.com/watch?v=example22",
+      "event_rules_and_regulations": [
+        "Teams of 2 participants are required.",
+        "No use of external resources during the quiz."
+      ],
+      "contact_event": {
+        "name": "Kevin Brown",
+        "email": "techquiz@example.com",
+        "phone": "(125) 535-5454"
+      },
+      "event_image": r22,
+      "event_faqs": [
+        {
+          "question": "What topics will be covered?",
+          "answer": "Topics will include AI, cybersecurity, software development, and emerging technologies."
+        },
+        {
+          "question": "Is internet access allowed?",
+          "answer": "No, internet access is strictly prohibited during the quiz."
+        }
+      ]
+    },
+    
   ]
 
 
