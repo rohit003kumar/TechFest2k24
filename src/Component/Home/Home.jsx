@@ -1,6 +1,6 @@
 import React from 'react'
 import './Home.css'
-import video from '../../assets/video.mp4'
+import video1 from '../../assets/video1.mp4'
 import robot from "../../assets/robot.png"
 import robot2 from '../../assets/robot2.png'
 import frame from '../../assets/frame.png'
@@ -20,7 +20,7 @@ const Home = () => {
     <div className='home'>
 
       <div className="frame">
-        <video src={video} type="video/mp4" autoPlay muted loop />
+        <video src={video1} type="video/mp4" autoPlay muted loop />
         <div className='frame-item'>
 
           <div className='frame-icon'>
